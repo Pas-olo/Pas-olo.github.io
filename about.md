@@ -1,11 +1,28 @@
 ---
 layout: page
-title: About
+title: A propos
 permalink: /about/
 ---
 
-Bonjour
+Bonjour,
 
-### Infos
+quelques projets ici
 
-Nessuno
+Au revoir !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merci !
