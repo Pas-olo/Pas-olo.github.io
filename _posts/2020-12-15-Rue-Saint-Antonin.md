@@ -10,16 +10,19 @@ Ainsi, on peut s'interesser à voir, à Saint-Antonin, quelles sont les rues les
 
 Dépendances :
 
-'''python
+'''
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import matplotlib as mpl
+
 '''
 
 Récupération des données :
 
-'''python
+'''
+
 df = pd.read_csv("adresses-82.csv",sep=';')
 adresse=df['nom_voie'].sort_values(ignore_index=True)
 for i in range(0,len(adresse)-1):
@@ -30,6 +33,7 @@ for i in range(0,len(adresse)-1):
         nombre.append(nu)
         nom=adresse[i]
         nu = 0
+
 '''
 
 ### Résultats
