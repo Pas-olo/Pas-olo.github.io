@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saint-Antonin : Voies les plus peuplées
+title: Saint-Antonin - Voies les plus peuplées
 ---
 
 Grâce à la base de données "Adresse", disponible [ici](https://adresse.data.gouv.fr/), on peut analyser le nombre d'habitations par rue.
