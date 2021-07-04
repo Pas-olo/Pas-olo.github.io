@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /about/
 ---
-# Pasolo
+<h1 style="text-align: center;"> Pasolo </h1>
 Permis B - Adresse - 00000 - Ville
 ## Formations
 ### Diplôme d'Ingénieur en Mécanique Avancée
