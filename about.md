@@ -6,8 +6,10 @@ permalink: /about/
 # Pasolo
 Permis B - Adresse - 00000 - Ville
 ## Formations
-**SIGMA CLERMONT** - *Clermont-Ferrand* - Diplôme d'ingénieur **2021**  
-**IAE Clermont** - *Clermont-Ferrnad* - Master en Management **2021**  
+### Diplôme d'Ingénieur en Mécanique Avancée, spécialité Systèmes Indistriels & Logistiques
+2021 - *Clermont-Ferrand*
+### Master en Management Stratégique, spécialité Management et Administrations des Entreprises
+2021 - *Clermont-Ferrnad*  
 ## Experiences pro
 
 
