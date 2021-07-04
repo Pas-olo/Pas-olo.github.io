@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A propos
+title: CV
 permalink: /about/
 ---
 # Pasolo
@@ -18,5 +18,4 @@ Spécialité en Management et Administrations des Entreprises - 2021 - *Clermont
 ## Titre 2
 ### Titre 3
 #### Titre 4
-##### Titre 5
-###### Titre 6
+
