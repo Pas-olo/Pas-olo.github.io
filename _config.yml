@@ -95,7 +95,7 @@ description: "Elpis - Audit GES & Bilan Carbone" # Site description and default 
 url: "" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: ""
-email: "me@daviddarnes.com"
+email: "paolo.sevegnes.moalli@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
