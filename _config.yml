@@ -34,16 +34,16 @@ paginate_path: blog/page:num
 
 # Header nav
 navigation_header:
-- title: Home
+- title: Aceuil
   url: /
-- title: About
+- title: A propos
   url: /about/
 - title: Blog
   url: /blog/
 
 # Footer nav
 navigation_footer:
-- title: Back to top
+- title: Retour en haut de page
   url: "#top"
 
 # Collections
