@@ -1,7 +1,9 @@
 ---
-title: Elpis - GES et Bilan Carbone
+title: 
+feature_text: |
+  Réalisation de Bilan GES et Bilan Carbone
 feature_image: "https://picsum.photos/2560/600?image=600"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+excerpt: ""
 ---
 
 Elpis offre une préstation de service autour des bilans de Gas à Effet de Serre. Des bilans GES réglementaire aux Bilan Carbone &copy , Elpis allie expertise et précision pour répondre aux enjeux climatique de ses clients.
