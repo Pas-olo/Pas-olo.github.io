@@ -2,7 +2,7 @@
 title: Audit GES - Bilan Carbone
 feature_image: ""
 feature_text: |
-  ![logo](./ressources/elpis_logo.svg =50x)
+  <img src="./elpis_logo.svg" alt="logo" width="133"/>
 ---
 
 Lorem Ipsum

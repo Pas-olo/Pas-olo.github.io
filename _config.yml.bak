@@ -43,9 +43,12 @@ navigation_header:
 
 # Footer nav
 navigation_footer:
+- title: Mention Légales
+  url: "./blog"
+  - title:              
+  url: ""
 - title: Retour en haut de page
   url: "#top"
-
 # Collections
 collections:
   posts:
