@@ -1,7 +1,7 @@
 ---
 title: 
 feature_text: |
-  Réalisation de Bilan GES et Bilan Carbone
+  **Réalisation de Bilan GES et Bilan Carbone**
 feature_image: "https://picsum.photos/2560/600?image=277"
 excerpt: ""
 ---
