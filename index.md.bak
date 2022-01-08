@@ -1,7 +1,7 @@
 ---
 title: Elpis - GES et Bilan Carbone
 feature_text: |
-  ![](./assets/logo.svg)
+  ![](./assets/logos/logo.svg)
 feature_image: ""
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
