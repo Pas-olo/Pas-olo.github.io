@@ -1,7 +1,7 @@
 ---
 title: 
 feature_text: |
-  **Réalisation de Bilan GES et Bilan Carbone**
+  <span style="background-color: #e0e0e0">**Réalisation de Bilan GES et Bilan Carbone**</span>
 feature_image: "https://picsum.photos/2560/600?image=277"
 excerpt: ""
 ---
