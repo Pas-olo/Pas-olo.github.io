@@ -41,12 +41,6 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
 content:
   - title: Experience
     layout: list
@@ -63,7 +57,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: right
+      - layout: top-right
         title: Ingénieur
         sub_title: Logistique et Environnement
         caption: Date Range (eg. 2016 - 2019)
