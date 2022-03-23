@@ -1,58 +1,38 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  <head>
-    <!-- General meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- include head.html -%}
 
-    {% if page.indexing == false %}
-      <meta name="robots" content="noindex">
-    {% endif %}
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
-    {% if page.collectionpage %}
-      {% seo title=false %}
+  {%- include header.html -%}
 
-      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-      <title>{{ collectiondata.title }} - {{ site.title }}</title>
-      <meta property="og:title" content="{{ collectiondata.title }}">
-      <meta name="description" content="{{ collectiondata.description }}">
-      <meta property="og:description" content="{{ collectiondata.description }}">
-    {% else %}
-      {% seo %}
-    {% endif %}
-    {% if site.fonts.preconnect_urls %}
-      {% for url in site.fonts.preconnect_urls %}
-        <link rel="preconnect" href="{{ url }}" crossorigin />
-      {% endfor %}
-    {% endif %}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
 
-    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
-    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
 
-    {% if site.css_inline == true %}
-      {% include site-styles.html %}
-    {% else %}
-      <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-    {% endif %}
+      {%- include about.html -%}
 
-    {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
+      {%- if site.version == 2 -%}
+        {% for section in site.content %}
+          <div class="container {{ section.layout }}-container">
+            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+          </div>
+        {% endfor %}
+      {% else %}
+        {%- include v1/default.html -%}
+      {%- endif -%}
+    </div>
+  </main>
 
-    {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
-
-    {% include site-fonts.html %}
-
-    {% include site-before-start.html %}
-  </head>
-
-  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-    {% include site-icons.svg %}
-
-    {{ content }}
-
-    {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
-
-    {% include site-before-end.html %}
-  </body>
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
 
 </html>
