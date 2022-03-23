@@ -6,25 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Paolo Sévègnes
-title: Ingénieur
-email: paolo.sevegnes.moalli(at)gmail.com
+name: Your Name
+title: Your job title
+email: Your email (optional)
 # email_title: Email (Email title override)
-phone: +33 625 878 839
+phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: pas-olo.github.io
+website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
-
-linkedin_username: Paolo Sevegnes
+twitter_username: jekyllrb
+github_username:  jekyll
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+linkedin_username: jekyll
+xing_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -40,6 +53,12 @@ additional_links:
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -91,6 +110,7 @@ content:
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
