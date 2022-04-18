@@ -4,7 +4,6 @@ repository: Git repository where your resume will be hosted, only required if yo
 
 # Content configuration version
 version: 2
-
 # Personal info
 name: Paolo
 title: Ingénieur
@@ -14,15 +13,10 @@ phone: +33 625 000 000
 phone_title:  Tel.
 website: pasolo.io
 website_title: Site
-
 # Dark Mode (true/false/never)
 darkmode: false
-
 # Social links
-
 linkedin_username: jekyll
-
-
 # Additional icon links
 additional_links:
 # - title: another link
@@ -36,7 +30,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
- about_title: A propos de moi
+about_title: A propos de moi
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 
 content:
