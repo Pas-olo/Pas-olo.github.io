@@ -5,6 +5,10 @@
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 	  {%- if include.item.lieu -%}<p>{{ include.item.lieu }}</p>{%- endif -%}
+	  {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+	  {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+	  {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+      {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
       {%- if item.link -%}
         {% include a.html href=item.link class="link" %}
           {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
