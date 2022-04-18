@@ -9,9 +9,9 @@ version: 2
 name: Paolo
 title: Ingénieur
 email: pasolo@mail.fr
- email_title: Mail
+email_title: Mail
 phone: +33 625 000 000
- phone_title:  Tel.
+phone_title:  Tel.
 website: pasolo.io
 website_title: Site
 

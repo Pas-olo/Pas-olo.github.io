@@ -6,14 +6,14 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-nom: Paolo
+name: Paolo
 title: Ingénieur
 email: pasolo@mail.fr
-# email_title: Email (Email title override)
+ email_title: Mail
 phone: +33 625 000 000
-# phone_title: Phone (Phone title override)
+ phone_title:  Tel.
 website: pasolo.io
-# website_title: Web (Website title override)
+website_title: Site
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -36,7 +36,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
- about_title: A propos de moi (Use this to override about section title)
+ about_title: A propos de moi
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 
 content:
