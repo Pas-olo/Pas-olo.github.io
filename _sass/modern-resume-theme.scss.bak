@@ -100,7 +100,7 @@
 
     h4 {
       margin-bottom: 0.1rem;
-      font-weight: 350;
+      font-weight: 500;
 
       @media print {
         margin-bottom: 0.2rem;
