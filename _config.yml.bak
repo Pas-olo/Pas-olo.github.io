@@ -43,7 +43,7 @@ content:
         lieu : Genève (Suisse)
         caption: |
           Oct. 21 - Avr. 22  
-          Genève (CH)
+          Genève (CH)  
         date : test date
         link: https://www.msf.ch/
         description: | # this will include new lines to allow paragraphs
