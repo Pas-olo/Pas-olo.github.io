@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Paolo
+nom: Paolo
 title: Ingénieur
 email: pasolo@mail.fr
 # email_title: Email (Email title override)
@@ -36,7 +36,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+ about_title: A propos de moi (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 
 content:
