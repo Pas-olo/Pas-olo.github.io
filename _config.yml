@@ -41,11 +41,7 @@ content:
         title: Médecins Sans Frontières
         sub_title: Chargé de Projet - Mesure Carbone
         lieu : Genève (Suisse)
-        caption: | 
-          Oct. 21 - Avr. 22  
-          t  
-          frf  
-          Genève (CH)  
+        caption: Oct. 21 - Avr. 22                              Genève (CH)  
         date : test date
         link: https://www.msf.ch/
         description: | # this will include new lines to allow paragraphs
