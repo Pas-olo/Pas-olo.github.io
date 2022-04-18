@@ -53,17 +53,39 @@ content:
         link: https://www.msf.ch/
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-  - title: Education
+  - title: Formation
     layout: list
     content:
       - layout: left
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)  <br> Clermont-Ferrand (63)
-        quote: >
-          Short institution or course description (optional)
+        title: Institut de Formation Carbone
+        sub_title: Formation à l'outil Bilan Carbone (r) 
+        caption: Dec. 2021 - Jan. 2022 <br> Paris (75)
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+      - layout: left
+        title: IAE Clermont Auvergne
+        sub_title: Master en Management Stratégique - Mention Management et Administration des Entreprises 
+        caption: Sep. 2020 - Sep. 2021 <br> Clermont - Ferrand (63)
+        description: | # this will include new lines to allow paragraphs
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      - layout: left
+        title: Sigma Clermont
+        sub_title: Diplôme d'Ingénieur en Mécanique Avancée - Spécialisation Systèmes Industriels et Logistiques
+        caption: Sep. 2018 - Sep. 2021 <br> Clermont - Ferrand (63)
+        description: | # this will include new lines to allow paragraphs
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       - layout: left
+        title: Lycée Laperouse
+        sub_title: CPGE PCSI-PSI
+        caption: Sep. 2016 - Juil. 2018 <br> Albi (81)
+        description: | # this will include new lines to allow paragraphs
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       - layout: left
+        title: Lycée Bourdelle
+        sub_title: Bac Scientifique - option Sciences de l'Ingénieurs
+        caption: 2016 <br> Montauban (82)
+        description: | # this will include new lines to allow paragraphs
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
