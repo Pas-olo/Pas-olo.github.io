@@ -74,13 +74,13 @@ content:
         caption: Sep. 2018 - Sep. 2021 <br> Clermont - Ferrand (63)
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       - layout: left
+      - layout: left
         title: Lycée Laperouse
         sub_title: CPGE PCSI-PSI
         caption: Sep. 2016 - Juil. 2018 <br> Albi (81)
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       - layout: left
+      - layout: left
         title: Lycée Bourdelle
         sub_title: Bac Scientifique - option Sciences de l'Ingénieurs
         caption: 2016 <br> Montauban (82)
