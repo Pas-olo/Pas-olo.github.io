@@ -1,0 +1,10 @@
+<div class="row clearfix layout layout-comp">
+  <div class="col-md-16 col-sm-4 col-md-3 col-print-6 details">
+    {%- if include.item.name -%}<p><b>{{ include.item.name }}</b></p>{%- endif -%}{%- if include.item.company -%}<p><b>{{ include.item.company }}</b></p>{%- endif -%}{%- if include.item.job_title -%}<p>{{ include.item.job_title }}</p>{%- endif -%}
+  </div>
+  <div class="col-md-16 col-sm-4 col-md-3 col-print-6 details">
+    {%- if include.item.quote -%}
+    {%- endif -%}
+    {{ include.item.description | strip | markdownify }}
+  </div>
+</div>
