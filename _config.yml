@@ -34,7 +34,7 @@ about_title: A propos de moi
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 
 content:
-  - title: Experiences Professionelles
+  - title: <i class="fa-solid fa-briefcase"></i> Experiences Professionelles <i class="fa-solid fa-briefcase"></i>
     layout: list
     content:
       - layout: left
