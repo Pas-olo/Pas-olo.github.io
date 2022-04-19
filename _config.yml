@@ -30,7 +30,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: A propos de moi
+about_title: <i class="fa-solid fa-person"></i> A propos de moi <i class="fa-solid fa-person"></i>
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 
 content:
@@ -53,7 +53,7 @@ content:
         link: https://www.msf.ch/
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-  - title: Formation
+  - title: <i class="fa-solid fa-graduation-cap"></i> Formation <i class="fa-solid fa-graduation-cap"></i>
     layout: list
     content:
       - layout: left
@@ -86,13 +86,19 @@ content:
         caption: 2016 <br> Montauban (82)
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - title: A Little More About Me
+  - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
+  - title: <i class="fa-solid fa-icons"></i> Loisirs <i class="fa-solid fa-icons"></i>
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
 references_title: References on request
