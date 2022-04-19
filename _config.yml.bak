@@ -89,12 +89,9 @@ content:
   - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
     content: |
-     ##### H5
-     # H1
-     ## H2
-     ### H3
-     #### H4
-     <h5> Test </h5>
+     ##### Logiciels
+     <i class="fa-solid fa-star"></i> : Notions <i class="fa-solid fa-arrow-right"></i> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> : Compétences professionnelles solides
+     ## Bureautique
      - <i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise
      - <i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise
      - <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise
