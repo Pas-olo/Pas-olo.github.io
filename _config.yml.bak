@@ -40,7 +40,7 @@ content:
       - layout: left
         title: Médecins Sans Frontières
         sub_title: Chargé de Projet - Mesure Carbone
-        caption: Oct. 21 - Avr. 22 <br> <i class="fa-solid fa-location-dot"></i>Genève (Suisse)  
+        caption: Oct. 21 - Avr. 22 <br> <i class="fa-solid fa-location-dot"></i> Genève (Suisse)  
         link: https://www.msf.ch/
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit  
