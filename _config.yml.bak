@@ -93,6 +93,12 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
+  - title: <i class="fa-solid fa-icons"></i> Loisirs <i class="fa-solid fa-icons"></i>
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
 references_title: References on request
