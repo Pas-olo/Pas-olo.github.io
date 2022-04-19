@@ -89,9 +89,9 @@ content:
   - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
     content: | # this will include new lines to allow paragraphs
-     <i class="fa-solid fa-file-excel"></i> : Très bonne maitrise
-     <i class="fa-solid fa-file-word"></i> : Très bonne maitrise
-     <i class="fa-solid fa-file-powerpoint"></i> : Très bonne maitrise
+     <h4><i class="fa-solid fa-file-excel"></i></h4> : Très bonne maitrise <br>
+     <h3><i class="fa-solid fa-file-word"></i></h3> : Très bonne maitrise <br>
+     <h2><i class="fa-solid fa-file-powerpoint"></i></h2> : Très bonne maitrise <br>
      
 
   - title: <i class="fa-solid fa-icons"></i> Loisirs <i class="fa-solid fa-icons"></i>
