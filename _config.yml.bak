@@ -98,14 +98,14 @@ content:
      - <i class="fa-solid fa-chart-pie"></i> Power BI / DataStudio : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
      - <i class="fa-solid fa-file-image"></i> Canva : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
      - <i class="fa-solid fa-database"></i> Access : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-     ## Programation
-     - VBA 4.5
-     - Pyhon 3.5
-     - Java 3
-     - C#/C++ 3
-     - SQL 3
-     - HTML 2.5
-     - PHP 1.5
+        ## Programation
+     - VBA : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
+     - Pyhon : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
+     - Java : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+     - C#/C++ : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+     - SQL : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+     - HTML : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
+     - PHP <i class="fa-solid fa-star"></i>
      
      ##### Savoir-êtres
      
