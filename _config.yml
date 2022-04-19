@@ -88,10 +88,11 @@ content:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
-     <center><h4> Logiciels</h4></center>
-     <i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise 
-     <i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise 
-     <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise
+    content: |
+     #####Logiciels
+     |<i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise|
+     <i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise|
+     <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise[
      
      
 

@@ -88,22 +88,10 @@ content:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
-    content: | # this will include new lines to allow paragraphs
      <center><h4> Logiciels</h4></center>
      <i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise 
      <i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise 
      <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise
-     <p><center>
-     <table>
-         <tbody>
-             <tr>
-                 <td><i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise </td>
-                 <td><i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise </td>
-                 <td><i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise</td>
-             </tr>
-         </tbody>
-     </table>
-     </p></center>
      
      
 
