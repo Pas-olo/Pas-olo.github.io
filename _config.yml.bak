@@ -89,13 +89,25 @@ content:
   - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
     content: |
-     ##### Logiciels
+     ##### Informatique
      <i class="fa-solid fa-star"></i> : *Notions* <i class="fa-solid fa-arrow-right"></i> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> : *Compétences professionnelles solides*
      ## Bureautique
-     - <i class="fa-solid fa-file-excel"></i> Excel: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+     - <i class="fa-solid fa-file-excel"></i> Excel : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
      - <i class="fa-solid fa-file-word"></i> Word : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
      - <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
+     - <i class="fa-solid fa-chart-pie"></i> Power BI / DataStudio : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
      - <i class="fa-solid fa-file-image"></i> Canva : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+     - <i class="fa-solid fa-database"></i> Access : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+     ## Programation
+     - VBA 4.5
+     - Pyhon 3.5
+     - Java 3
+     - C#/C++ 3
+     - SQL 3
+     - HTML 2.5
+     - PHP 1.5
+     
+     ##### Savoir-êtres
      
      
 
