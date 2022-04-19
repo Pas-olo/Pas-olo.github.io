@@ -89,7 +89,11 @@ content:
   - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
     content: |
-     ##### Logiciels
+     ##### H5
+     # H1
+     ## H2
+     ### H3
+     #### H4
      - <i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise
      - <i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise
      - <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise
