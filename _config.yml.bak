@@ -90,8 +90,19 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
      <center><h4> Logiciels</h4></center>
-     |<i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise|<i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise|<i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise|
-     |-----------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------|
+     <i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise 
+     <i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise 
+     <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise
+     <table>
+         <tbody>
+             <tr>
+                 <td><i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise </td>
+                 <td><i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise </td>
+                 <td><i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise</td>
+             </tr>
+         </tbody>
+     </table>
+     
      
 
   - title: <i class="fa-solid fa-icons"></i> Loisirs <i class="fa-solid fa-icons"></i>
