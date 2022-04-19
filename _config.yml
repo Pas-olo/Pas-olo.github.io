@@ -89,10 +89,10 @@ content:
   - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
     layout: text
     content: |
-     #####Logiciels
+     ##### Logiciels
      |<i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise|
      <i class="fa-solid fa-file-word"></i> Word : Très bonne maitrise|
-     <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise[
+     <i class="fa-solid fa-file-powerpoint"></i> Powerpoint : Très bonne maitrise|
      
      
 
@@ -100,7 +100,6 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 # Footer
 footer_show_references: true
