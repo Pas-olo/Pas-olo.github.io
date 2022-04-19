@@ -8,11 +8,11 @@ version: 2
 name: Paolo
 title: Ingénieur
 email: pasolo@mail.fr
-email_title: Mail
+email_title: <i class="fa-regular fa-envelope"></i>
 phone: +33 625 000 000
-phone_title:  Tel.
+phone_title:  <i class="fa-regular fa-phone"></i>
 website: pasolo.io
-website_title: Site
+website_title: <i class="fa-regular fa-globe"></i>
 # Dark Mode (true/false/never)
 darkmode: false
 # Social links

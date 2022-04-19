@@ -40,7 +40,7 @@ content:
       - layout: left
         title: Médecins Sans Frontières
         sub_title: Chargé de Projet - Mesure Carbone
-        caption: Oct. 21 - Avr. 22 <br> <i class="fa-solid fa-location-dot"></i> Genève (Suisse)  
+        caption: <i class="fa-regular fa-calendar"></i> Oct. 21 - Avr. 22 <br> <i class="fa-solid fa-location-dot"></i> Genève (Suisse)  
         link: https://www.msf.ch/
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit  
@@ -49,7 +49,7 @@ content:
       - layout: left
         title: Médecins Sans Frontières
         sub_title: Stage Ingénieur - Logistique Technique
-        caption: Mar. 21 - Sep. 22 <br> Genève (Suisse)
+        caption: <i class="fa-regular fa-calendar"></i> Mar. 21 - Sep. 22 <br> <i class="fa-solid fa-location-dot"></i> Genève (Suisse)
         link: https://www.msf.ch/
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
