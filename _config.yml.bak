@@ -90,9 +90,9 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
      <center><h4> Logiciels</h4></center>
-     <center>**<i class="fa-solid fa-file-excel"></i> Excel**: Très bonne maitrise
-     **<i class="fa-solid fa-file-word"></i> Word** : Très bonne maitrise
-     **<i class="fa-solid fa-file-powerpoint"></i> Powerpoint** : Très bonne maitrise </center>
+     <p><center><b><i class="fa-solid fa-file-excel"></i> Excel: Très bonne maitrise
+     <i class="fa-solid fa-file-word"></i> Word** : Très bonne maitrise
+     <i class="fa-solid fa-file-powerpoint"></i> Powerpoint** : Très bonne maitrise </b></center></p>
      
      
 
