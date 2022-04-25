@@ -1,145 +1,102 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+#
+# This file contains configuration flags to customize your site
+#
 
-# Content configuration version
-version: 2
-# Personal info
-name: Paolo
-title: Ingénieur
-email: pasolo@mail.fr
-email_title: <i class="fa-regular fa-envelope"></i> 
-phone: +33 625 000 000
-phone_title:  <i class="fa-solid fa-phone"></i> 
-website: pasolo.io
-website_title: <i class="fa-solid fa-globe"></i> 
-# Dark Mode (true/false/never)
-darkmode: false
-# Social links
-linkedin_username: jekyll
-# Additional icon links
-additional_links:
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# Name of your site (displayed in the header)
+name: Reverie
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# Name of the author
+author: Amit Merchant
 
-# About Section
-about_title: <i class="fa-solid fa-person"></i> A propos de moi <i class="fa-solid fa-person"></i>
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# Short bio or description (displayed in the header)
+description: An elegant Jekyll theme
 
-content:
-  - title: <i class="fa-solid fa-briefcase"></i> Experiences Professionelles <i class="fa-solid fa-briefcase"></i>
-    layout: list
-    content:
-      - layout: left
-        title: Médecins Sans Frontières
-        sub_title: Chargé de Projet - Mesure Carbone
-        caption: <i class="fa-regular fa-calendar"></i> Oct. 21 - Avr. 22 <br> <i class="fa-solid fa-location-dot"></i> Genève (Suisse)  
-        link: https://www.msf.ch/
-        description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit  
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-      - layout: left
-        title: Médecins Sans Frontières
-        sub_title: Stage Ingénieur - Logistique Technique
-        caption: <i class="fa-regular fa-calendar"></i> Mar. 21 - Sep. 22 <br> <i class="fa-solid fa-location-dot"></i> Genève (Suisse)
-        link: https://www.msf.ch/
-        description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-  - title: <i class="fa-solid fa-graduation-cap"></i> Formation <i class="fa-solid fa-graduation-cap"></i>
-    layout: list
-    content:
-      - layout: left
-        title: Institut de Formation Carbone
-        sub_title: Formation à l'outil Bilan Carbone<i class="fa-regular fa-registered"></i>
-        caption: Dec. 2021 - Jan. 2022 <br> Paris (75)
-        description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-      - layout: left
-        title: IAE Clermont Auvergne
-        sub_title: Master en Management Stratégique - Mention Management et Administration des Entreprises 
-        caption: Sep. 2020 - Sep. 2021 <br> Clermont - Ferrand (63)
-        description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      - layout: left
-        title: Sigma Clermont
-        sub_title: Diplôme d'Ingénieur en Mécanique Avancée - Spécialisation Systèmes Industriels et Logistiques
-        caption: Sep. 2018 - Sep. 2021 <br> Clermont - Ferrand (63)
-        description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      - layout: left
-        title: Lycée Laperouse
-        sub_title: CPGE PCSI-PSI
-        caption: Sep. 2016 - Juil. 2018 <br> Albi (81)
-        description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      - layout: left
-        title: Lycée Bourdelle
-        sub_title: Bac Scientifique - option Sciences de l'Ingénieurs
-        caption: 2016 <br> Montauban (82)
-        description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - title: <i class="fa-solid fa-puzzle-piece"></i> Compétences <i class="fa-solid fa-puzzle-piece"></i>
-    layout: text
-    content: |
-     ##### Informatique
-     <i class="fa-solid fa-star"></i> : *Notions* <i class="fa-solid fa-arrow-right"></i> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> : *Compétences professionnelles solides*
-     ## Bureautique
-        &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-file-excel"></i> Excel : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-file-word"></i> Word : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-file-powerpoint"></i> Powerpoint : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-chart-pie"></i> Power BI / DataStudio : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-file-image"></i> Canva : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-database"></i> Access : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-     ## Programation
-        &nbsp;&nbsp;&nbsp;&nbsp;VBA : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;Pyhon : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;Java : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;C#/C++ : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;SQL : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;HTML : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;PHP <i class="fa-solid fa-star"></i>
-     
-     ##### Savoir-êtres
-     
-     
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/reverie.png
 
-  - title: <i class="fa-solid fa-icons"></i> Loisirs <i class="fa-solid fa-icons"></i>
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-# Footer
-footer_show_references: true
-references_title: References on request
+#
+# Flags below are optional
+#
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: amit.d.merchant@gmail.com
+  facebook:
+  flickr:
+  github: amitmerchant1990/reverie
+  instagram:
+  linkedin: 
+  pinterest:
+  rss: rss
+  twitter: amit_merchant
+  stackoverflow: 
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  playconsole:
 
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: 
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-43339302-11
+
+# For newer "GA4" analytics, use the following instead of the "UA" entry above
+#google_analytics_ga4: G-GABC1DEFG
+
+# Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
+# Used for Sitemap.xml and your RSS feed
+url: http://www.amitmerchant.com/reverie
+enforce_ssl: https://www.amitmerchant.com/reverie
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: "/reverie"
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
 sass:
-  sass_dir: _sass
-  style: compressed
+  style: :expanded # You might prefer to minify using :compressed
 
+# Use the following plug-ins
 plugins:
- - jekyll-seo-tag
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+include: ['_pages']
+
+paginate: 6
+paginate_path: /page:num/
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+

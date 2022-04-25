@@ -1,172 +1,134 @@
-# modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master)
+<div align="center">
+  <br>
+  <img src="/images/reverie-text.png" alt="Reverie" width="200"/>
+  <br>  
+  <p align="center">
+    <i>Support my work via <a href="https://paypal.me/AmitMerchant">Paypal</a></i>
+    •
+    <i>Would you be interested in <a href="https://www.producthunt.com/upcoming/reverie-pro">Reverie Pro</a>?</i>
+  </p>
+</div>
 
-*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
-*Host your own resume on GitHub for **free!***
+---
 
-[View Demo](https://sproogen.github.io/modern-resume-theme/)
+Reverie is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for my blog.
 
-----
+> [Theme demo](https://reverie-jekyll.netlify.app/)
 
-## Announcements
+This is a plug-and-play Jekyll theme best suited to use on [GitHub Pages](https://pages.github.com) (or [Cloudflare Pages](https://pages.cloudflare.com/) if you want to have your repository private) without even setting up a local environment.
 
- - **Nov 2020** - Content configuration version 2 released. Added a new more configurable way of adding data to the resume. Add as many content sections as you like in what ever order you want. Currently just *text* and *list* but future categories coming soon.
-Full backwards compatibilty with version 1 remains and the documentation for version 1 can be found [here (Version 1 Readme)](https://github.com/sproogen/modern-resume-theme/blob/1.x/README.md).
+![](/images/reverie-demo.png)
 
- - **Dec 2019** - Now includes **Dark Mode**
+|  Responsiveness            |  Search | Categories |
+|---------------------|----------------------|----------------------|
+|![Responsiveness](/images/mobile-demo.png) | ![search](/images/search.png) | ![categories](/images/categories.png) |
 
-----
+# Table of Contents
+  - [Features overview](#features-overview)
+  - [Using Reverie on GitHub Pages](#using-reverie-on-github-pages)
+    - [1. Fork Reverie to your User Repository](#1-fork-reverie-to-your-user-repository)
+    - [2. Customize and view your site](#2-customize-and-view-your-site)
+    - [3. Publish your first blog post](#3-publish-your-first-blog-post)
+  - [Using Categories in Reverie](#using-categories-in-reverie)
+  - [Pagination](#pagination)
+  - [RSS](#rss)
+  - [Sitemap](#sitemap)
+  - [Emailware](#emailware)
+  - [The name?](#the-name)
+  - [License](#license)
 
-![img](screenshot.png)
+## Features overview
 
-Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose), I'm always happy to help.
+- Clean and minimal design
+- Single column post layout
+- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
+- Fully responsive and mobile optimized theme
+- Sass/Coffeescript support using Jekyll 2.0
+- Free hosting on your GitHub Pages user site
+- All the SEO goodies come built-in
+- Markdown blogging
+- Supports [Pullquotes](https://reverie-jekyll.netlify.app/pullquotes/)
+- Syntax highlighting using Pygments
+    - [Dracula syntax theme](https://draculatheme.com/) included
+- Disqus commenting
+- Social media icons
+- Google Analytics integration
+- Supports [Google Analytics 4](https://support.google.com/analytics/answer/10089681?hl=en)
+- Fuzzy search across blog posts
+- Blog with pagination
+- Categorize posts out-of-the box
+- RSS Feed
+- Built-in sitemap
 
-I always enjoy seeing how people are using my creations and if you would like to say thanks feel free to [buy me a coffee (buymeacoffee.com/vJ6HfLu)](https://buymeacoff.ee/vJ6HfLu).
+> <p><i>Like this theme?</i> If so, consider donating a small amount that will help my maintaining this project further.<p>
+> You can support me via <a href="https://paypal.me/AmitMerchant">Paypal</a>.
 
-If you would like to see how I am using this then you can view my resume [here (jameswgrant.co.uk)](http://www.jameswgrant.co.uk/) and find the code [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.
+## Using Reverie on GitHub Pages
 
-You can view the project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
+Setting up Reverie on GitHub Pages is as simple as it gets!
 
-----
+### 1. Fork Reverie to your User Repository
 
-## Installation & setup guide
-This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
+Fork this repository, then rename the repository to `yourgithubusername.github.io`.
 
-Before starting it might be useful to familiarise yourself with [Jekyll](https://jekyllrb.com/docs/home/), [Markdown](https://www.markdownguide.org/getting-started) and [GitHub pages](https://pages.github.com/).
+Alternatively, you can click the [`Use this template`](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
 
-### Step 1 - GitHub
-Start by creating an account on [GitHub](https://github.com/join)
+Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2).
 
-### Step 2 - Create Repository
-Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
+### 2. Customize and view your site
 
-### Step 3 - Download Resume Template
-Download and extract the following zip into the git repository you have just created. [resume-template.zip](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip)
+Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
 
-### Step 4 - Push it
-Commit and push the resume template to github
+Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with Jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
+
+### 3. Publish your first blog post
+
+Delete all files from `_posts`directory and create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
+
+> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+
+## Using Categories in Reverie
+
+You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
+
+For adding single category:
+
+```md
+categories: JavaScript
 ```
-$ git add --all
-$ git commit -m "Initial resume setup"
-$ git push -u origin master
-```
-### Step 5 - See it
-You should now be able to see the demo resume template using this theme at `[your-username].github.io`
 
-----
+For adding multiple categories:
 
-## Usage
-
-So now you will be able to see the demo template at your github URL. You can can edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
-
-### `_config.yml`
-This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume.  
-A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
-
-#### Content
-The main content for you resume will all come under the content property in the `_config.yml` file. This can be quite complex and a good understanding on [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) will be helpful here.
-
-Content will contain an array of sections, there are currently 2 types of layouts for content sections, text and list.
-
-**text** is a basic layout that contains markdown content.  
-**list** is a the standard layout that is used for things like *Education* and *Experience*.
-
-Below is a the full list of content options.
-```
-content:
-  - title: Section Name
-    layout: list (options: list, text)
-    content:
-      - layout: left (options: left, right, top, top-right, top-middle)(default: left)
-        title: Name of item (eg. Company or Project name)
-        sub_title: Sub title (eg. Qualification or Job title)(optional)
-        caption: Item caption (eg. Employment or course dates)(optional)
-        link: Web link (eg. https://sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Text for link (optional: without this link will show URL as link text)
-        additional_links: (optional)
-          - title: Link name
-            icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-            url: Link url (eg. https://google.com)
-        quote: >
-          Short overview or quote for the item
-        description: | # this will include new lines to allow paragraphs
-          Main content area for the list item.
-  - title: Section Name
-    layout: text (options: list, text)
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+```md
+categories: [PHP, Laravel]
 ```
 
-***Note:** The description or content areas (fields starting with `| #`) use markdown, this means that you have the ability to format the section in many different ways and add things such as images, code & syntax highlighting and tables. You can find a good [Markdown cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)*
+The categorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
 
-#### Additional links
-If you would like to add more than the predefined social links in the config file, then you can use the `additional_links` field to add as many additional links with urls and font awesome icons as you wish.
+## Pagination
 
-#### Dark Mode
-Dark mode is configured via `_config.yml`  
+Pagination of posts in Reverie works out-of-the-box. You only need to specify the number of posts you want on a single page in `_config.yml` and Reverie will take care of the rest.
+
+```yml
+paginate: 6
 ```
-darkmode: true (options: true, false, never)
-```
-When dark mode is `true` the site will show the dark theme for everyone  
-When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
-When dark mode is `never` the site will never be shown in the dark theme
 
-#### Heading Anchors
-You can link to section titles using a Markdown anchor link, e.g.: `[About me](#about-me)`. The link after the `#` is the slug version of the title.
+## RSS
 
-### `assets/main.scss`
-Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
+Reverie comes with a [RSS feed](https://en.wikipedia.org/wiki/RSS) in-built. The generated RSS Feed of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://reverie-jekyll.netlify.app/feed.xml).
 
-----
+## Sitemap
 
-## Running locally
+The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap.xml>. You can see the example sitemap feed over [here](https://reverie-jekyll.netlify.app/sitemap.xml).
 
-Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
+## Emailware
+Reverie is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this theme or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
 
-1. Clone your resume repository locally *(if you haven't already)*
-2. `cd [your-repository-name]`
-3. `bundle install`
-4. `bundle exec jekyll serve`
-5. Open your browser to `http://localhost:4000`
+## The name?
 
-Any changes you make will automatically build and you will be able to see these by refreshing your browser.
+reverie - _a state of being pleasantly lost in one's thoughts; a daydream._<br><sup>/ˈrɛv(ə)ri/</sup> 
 
-*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
-
-----
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/sproogen/modern-resume-theme. You can view our full guide to contributing [here](https://github.com/sproogen/modern-resume-theme/blob/master/CONTRIBUTING.md)
-This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-----
-
-## Development
-
-### Locally
-
-Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
-
-*Note: You will need version `1.15.2` of bundler, as this is the only version that Heroku supports.*
-
-1. Fork and or clone this repository locally
-2. `cd modern-resume-theme`
-3. `bundle install`
-4. `bundle exec jekyll serve`
-5. Open your browser to `http://localhost:4000`
-
-Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
-
-***Note:** You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
-
-### Docker
-
-If you have docker installed you can simply run `docker-compose up` to launch the site in a container, it will then be hosted at `http://localhost:4000`
-
-----
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+MIT
