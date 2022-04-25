@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Manger à Saint-Antonin
+name: Manger à Saint-Antonin-Noble-Val (82)
 
 # Name of the author
 author: MGSA
@@ -48,8 +48,8 @@ google_analytics_ga4: G-5KFE3RC8Q8
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://manger-saint-antonin.ga/
-enforce_ssl: https://manger-saint-antonin.ga/
+url: https://manger-saint-antonin.ga
+enforce_ssl: https://manger-saint-antonin.ga
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
