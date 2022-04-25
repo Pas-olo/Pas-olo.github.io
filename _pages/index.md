@@ -21,72 +21,75 @@ permalink: /
 
 ***
 
-### Quercy Pizza
+#### Quercy Pizza
 <p style="color:#167700;"><b>Ouvert</b></p>
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs
 <br> <a href="https://manger-saint-antonin.ga/pizza-val/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
+
 ***
 
-### Le Capharnaüm
+#### Le Capharnaüm
 <p style="color:#167700;"><b>Ouvert</b></p>
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs
 <br> <a href="https://manger-saint-antonin.ga/pizza-val/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
+
 ***
 
-### Chez Féfé
+#### Chez Féfé
 <p style="color:#167700;"><b>Ouvert</b></p>
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs
 <br> <a href="https://manger-saint-antonin.ga/pizza-val/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
-***
-
-### A la Table d'Antoine
 
 ***
 
-### Le Gazpacho
+#### A la Table d'Antoine
 
 ***
 
-### Le Festin de Babette
+#### Le Gazpacho
 
 ***
 
-### L'Ozone
+#### Le Festin de Babette
 
 ***
 
-### L'auberge des sens
+#### L'Ozone
 
 ***
 
-### La Fringale
+#### L'auberge des sens
 
 ***
 
-### Birdy Nem Nem
+#### La Fringale
 
 ***
 
-### L'Ecuelle
+#### Birdy Nem Nem
 
 ***
 
-### L'Andalouse
+#### L'Ecuelle
 
 ***
 
-### Le Bistrot
+#### L'Andalouse
 
 ***
 
-### Le Chien Fou
+#### Le Bistrot
 
 ***
 
-### Guinguette de la Plage
+#### Le Chien Fou
+
+***
+
+#### Guinguette de la Plage
 
 ***
 
