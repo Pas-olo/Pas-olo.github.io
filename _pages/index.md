@@ -74,4 +74,11 @@ Mardi au Dimanche - 12h00-13h30 & 19h00-21h00
 
 ### Le Chien Fou
 
+***
+
+### Guinguette de la Plage
+
+***
+
+
 
