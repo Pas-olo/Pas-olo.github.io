@@ -21,6 +21,7 @@ permalink: /pizza-val/
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs
 <br><a href="http://manger-st-antonin.ga/Pizza-val" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;&nbsp;*+ d'info*</a>
 <br><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp; 05 63 30 61 74
+<br><i class="fa-solid fa-location-dot"></i> Map : Pizza Val](https://goo.gl/maps/jrXGyfn4kkBjZrkE8)
 
 ***
 
