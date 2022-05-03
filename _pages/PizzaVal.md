@@ -21,9 +21,9 @@ permalink: /pizza-val/
 
 #### Pizza
 
-**Margeurite** : Sauce tomate, jambon, fromage - *8,5€*
-<br>**Reine** : Sauce tomate, jambon, champignon, fromage - *9,5€*
-<br>**Végétarienne** : Sauce tomate, fromage, champignon, tomate fraîche, poivron, oignon - *10€*
+<span>*8,5€*</span> **Margeurite** : Sauce tomate, jambon, fromage 
+<br><span>*10€*</span>**Reine** : Sauce tomate, jambon, champignon, fromage - *9,5€*
+<br>**Végétarienne** : Sauce tomate, fromage, champignon, tomate fraîche, poivron, oignon
 <br>**Calabrese** : Sauce tomate, chorizo, poivron, fromage - *10,5€*
 <br>**4 fromages** : Sauce tomate, mozzarella, chèvre, poivron, emmental - *11€*
 <br>**Chèvre** : Sauce tomate, jambon, chèvre de cabécou, fromage, miel - *11€*
