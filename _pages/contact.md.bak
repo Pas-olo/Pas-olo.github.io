@@ -11,12 +11,12 @@ permalink: /contact/
 >
   <label>
     Mail:
-    <input type="email" name="email" width="80">
+    <input type="email" name="email" style="width: 200px;">
   </label>
   <br>
   <label>
     Message:
-    <textarea name="message" width ="160" height="48"></textarea>
+    <textarea name="message" style="height:120px; width: 200px;"></textarea>
   </label>
   <!-- your other form fields go here -->
   <br>
