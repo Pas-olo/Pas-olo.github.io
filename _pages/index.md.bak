@@ -4,6 +4,7 @@ title: Restaurants à Saint-Antonin
 permalink: /
 ---
 ***
+
 #### Pizza Val
 <p style="color:#167700;"><b>Fonctionne Normalement</b></p>
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
@@ -150,7 +151,7 @@ permalink: /
 
 #### Guinguette de la Plage
 <p style="color:#8B0000;"><b>Fermé</b></p>
-<i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00 (Sauf dimanche soir)
+<i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00 (Sauf Dimanche soir)
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Cuisine traditionnelle
 <br> <i class="fa-solid fa-bell-concierge"></i>&nbsp;&nbsp;&nbsp;Sur place
 <br> <a href="https://manger-saint-antonin.ga/guinguette-plage/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
@@ -159,9 +160,10 @@ permalink: /
 
 #### Kebab
 <p style="color:#167700;"><b>Fonctionne Normalement</b></p>
-<i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-20h30 (Sauf Dimanche Soir)
+<i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-20h30
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Kebab
 <br> <i class="fa-solid fa-bell-concierge"></i>&nbsp;&nbsp;&nbsp;Sur place & à emporter
 <br> <a href="https://manger-saint-antonin.ga/kebab/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
 
 ***
+
