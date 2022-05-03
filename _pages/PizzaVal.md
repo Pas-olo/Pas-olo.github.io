@@ -24,13 +24,11 @@ permalink: /pizza-val/
 
 #### Sandwidchs
 
-***
 
 *Bientot*
 
 #### Pizza
 
-***
 
 **Marguerite** : Sauce tomate, jambon, fromage  <span>*8,5€*</span>
 <br><br>**Reine** : Sauce tomate, jambon, champignon, fromage  <span>*8,5€*</span>
