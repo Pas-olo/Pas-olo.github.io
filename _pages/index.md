@@ -22,23 +22,23 @@ permalink: /
 ***
 
 #### Quercy Pizza
-<p style="color:#167700;"><b>Ouvert</b></p>
+<p style="color:#167700;"><b>Fonctionne normalement</b></p>
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
-<br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs
+<br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza
 <br> <a href="https://manger-saint-antonin.ga/pizza-val/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
 
 ***
 
 #### Le Capharnaüm
-<p style="color:#167700;"><b>Ouvert</b></p>
+<p style="color:#167700;"><b>Fonctionne normalement</b></p>
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
-<br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs
+<br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Cuisine traditionnel
 <br> <a href="https://manger-saint-antonin.ga/pizza-val/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
 
 ***
 
 #### Chez Féfé
-<p style="color:#167700;"><b>Ouvert</b></p>
+<p style="color:#167700;"><b>Fonctionne normalement</b></p>
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs
 <br> <a href="https://manger-saint-antonin.ga/pizza-val/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
