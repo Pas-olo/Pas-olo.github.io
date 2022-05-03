@@ -10,7 +10,7 @@ permalink: /
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwichs
 <br> <i class="fa-solid fa-bell-concierge"></i>&nbsp;&nbsp;&nbsp;Sur place & à emporter
-<br> <a href="https://manger-saint-antonin.ga/pizza-val/"target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
+<br> <a href="https://manger-saint-antonin.ga/pizza-val/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;*+ d'info*</a>
 
 ***
 
