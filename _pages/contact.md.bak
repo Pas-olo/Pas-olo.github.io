@@ -16,7 +16,7 @@ permalink: /contact/
   <br>
   <label>
     Message:
-    <textarea name="message" style="height:120px; width: 200px;"></textarea>
+    <textarea name="message" style="height:120px; width: 500px;"></textarea>
   </label>
   <!-- your other form fields go here -->
   <br>
