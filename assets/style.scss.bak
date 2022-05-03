@@ -100,6 +100,10 @@ p {
   margin: 15px 0;
 }
 
+p span {
+  float: left;
+}
+
 table {
 	padding: 0;
 }
