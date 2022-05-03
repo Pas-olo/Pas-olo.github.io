@@ -3,8 +3,14 @@ layout: page
 title: Pizza Val
 permalink: /pizza-val/
 ---
+
+***
+
 ![alt text](/images/pizzaval.png "Pizza Val")
 ### Infos
+
+
+
 <p style="color:#167700;"><b>Fontionne normalement</b></p>
 
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
@@ -12,14 +18,19 @@ permalink: /pizza-val/
 <br><a href="http://manger-st-antonin.ga/Pizza-val" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;&nbsp;&nbsp;*+ d'info*</a>
 <br><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp; 05 63 30 61 74
 
+***
 
 ### Menu
 
 #### Sandwidchs
 
+***
+
 *Bientot*
 
 #### Pizza
+
+***
 
 **Marguerite** : Sauce tomate, jambon, fromage <span>*8,5€*</span> 
 <br><span>*10€*</span>**Reine** : Sauce tomate, jambon, champignon, fromage - *9,5€*
