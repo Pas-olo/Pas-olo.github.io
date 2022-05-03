@@ -5,7 +5,7 @@ permalink: /pizza-val/
 ---
 ![alt text](/images/pizzaval.png "Pizza Val")
 ### Infos
-<p style="color:#167700;"><b>Ouvert</b></p>
+<p style="color:#167700;"><b>Fontionne normalement</b></p>
 
 <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;&nbsp;7j/7 - 12h00-13h30 & 19h00-21h00
 <br>  <i class="fa-solid fa-utensils"></i>&nbsp;&nbsp;&nbsp;Pizza, Sandwidchs

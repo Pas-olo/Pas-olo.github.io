@@ -3,6 +3,7 @@ layout: page
 title: Pizza Val
 permalink: /pizza-val/
 ---
+![alt text](/images/pizzaval.png "Pizza Val")
 ### Infos
 <p style="color:#167700;"><b>Ouvert</b></p>
 
