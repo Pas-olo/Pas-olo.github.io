@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-
+<center>
 <form
   action="https://formspree.io/f/mbjwpwpq"
   method="POST"
@@ -22,3 +22,4 @@ permalink: /contact/
   <br>
   <button type="submit">Envoyer</button>
 </form>
+</center>
