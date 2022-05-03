@@ -26,12 +26,12 @@ permalink: /pizza-val/
 
 ### Menu
 
-#### <i class="fa-solid fa-burger"></i> Sandwidchs
+#### <span><i class="fa-solid fa-burger"></i> Sandwidchs</span>
 
 
 *Bientot*
 
-#### <i class="fa-solid fa-pizza-slice"></i> Pizza
+#### <span><i class="fa-solid fa-pizza-slice"></i> Pizza</span>
 
 
 **Marguerite** : Sauce tomate, jambon, fromage  <span>*8,5€*</span>
