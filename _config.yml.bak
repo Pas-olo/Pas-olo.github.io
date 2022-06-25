@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
+title: Paolo Sévègnes
 email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+url: https://pas-olo.github.io/index.html
+description: "Accompagnement à la comptabilité des émissions GES et construction de solutions de dé-carbonations."
+keywords: "consultant, carbone, bilan ges, collectivité, entreprise, développement durable, environnement "
+skills: "Comptabilité Carbone - Dé-carbonation des entreprises et des collectivités"
+meta_author: Paolo Sévègnes
 
 # Google webmaster tools
 google_verify:
@@ -21,7 +21,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -32,28 +32,19 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Paolo Sévègnes
+  location: France
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: France
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
