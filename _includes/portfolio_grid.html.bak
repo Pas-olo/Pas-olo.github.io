@@ -1,21 +1,13 @@
----
-carousels:
-  - images: 
-    - image: https://images.pexels.com/photos/7389182/pexels-photo-7389182.jpeg
-    - image: https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg
-    - image: https://images.pexels.com/photos/5495611/pexels-photo-5495611.jpeg
-    - image: https://images.pexels.com/photos/422219/pexels-photo-422219.jpeg
----
+
     <!-- Portfolio Grid Section -->
     <section class="success" id="portfolio">
         <div class="container portfolio-flex-grid">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Partenaires</h2>
                     <hr class="star-primary">
                 </div>
             </div>
-			{% include carousel.html height="50" unit="%" duration="4" number="1" %}
 			<!--
             <div class="portfolio-flex-row">
                 {% for post in site.posts %}
@@ -33,4 +25,5 @@ carousels:
             </div>
 		-->
         </div>
+		{% include carousel.html height="50" unit="%" duration="4" number="1" %}
     </section>
