@@ -9,5 +9,13 @@
     - src: https://images.pexels.com/photos/671585/pexels-photo-671585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
       alt: image three
   settings:
-    height: "'auto'"
-    effect: "'fade'"
+    height: 400
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:

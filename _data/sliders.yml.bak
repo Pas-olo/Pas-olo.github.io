@@ -2,11 +2,11 @@
 - selector: example_slider
   captions: true
   images:
-    - src: /img/1.jpg
+    - src: https://images.pexels.com/photos/422219/pexels-photo-422219.jpeg
       alt: image one
-    - src: /img/2.jpg
+    - src: https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg
       alt: image two
-    - src: /img/3.jpg
+    - src: https://images.pexels.com/photos/671585/pexels-photo-671585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
       alt: image three
   settings:
     height: "'auto'"
