@@ -13,6 +13,11 @@
 		<br>
 		<br>
 		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
         <div class="intro-text">
           <span class="name">{{ site.title }}</span>
           <hr class="star-light" />
