@@ -12,7 +12,7 @@
     maxHeight:
     interval: 2000
     transitionDuration: 500
-    effect: 'slide'
+    effect:
     disableNav:
     keyboardNav:
     previousNavSelector:
