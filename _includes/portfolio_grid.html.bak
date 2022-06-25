@@ -9,6 +9,7 @@
                 </div>
             </div>
 			{% include slider_styles.html %}
+			{% include slider.html selector="example_slider" %}
 			<!--
             <div class="portfolio-flex-row">
                 {% for post in site.posts %}
