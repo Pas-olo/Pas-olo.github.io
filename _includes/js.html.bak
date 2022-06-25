@@ -3,7 +3,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" }}"></script>
-	<script src="/ideal-image-slider.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="{{ "/js/jquery.easing.min.js" }}"></script>
