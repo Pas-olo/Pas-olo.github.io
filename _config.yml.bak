@@ -33,8 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: Paolo Sévègnes
-  location: France
-  social: Around the Web
+  location: Localisation
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
