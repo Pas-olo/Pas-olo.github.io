@@ -1,9 +1,5 @@
 ---
 layout: default
-carousels:
-  - images: 
-    - image: https://images.pexels.com/photos/7389182/pexels-photo-7389182.jpeg
-    - image: https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg
-    - image: https://images.pexels.com/photos/5495611/pexels-photo-5495611.jpeg
-    - image: https://images.pexels.com/photos/422219/pexels-photo-422219.jpeg
+image_sliders:
+  - example_slider
 ---
