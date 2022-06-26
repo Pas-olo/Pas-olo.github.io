@@ -1,5 +1,5 @@
 - selector: slider1
-  bullets: true
+  bullets: false
   captions: true
   images:
     - src: /img/1.jpg
