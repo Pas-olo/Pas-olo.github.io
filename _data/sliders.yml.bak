@@ -1,5 +1,5 @@
 - selector: slider1
-  bullets: false
+  bullets: true
   captions: true
   images:
     - src: /img/1.jpg
@@ -16,8 +16,8 @@
     height: 400
     initialHeight:
     maxHeight:
-    interval: 1000
-    transitionDuration:
+    interval: 3000
+    transitionDuration: 500
     effect:
     disableNav:
     keyboardNav:
