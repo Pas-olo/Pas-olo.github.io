@@ -2,7 +2,7 @@
   bullets: true
   captions: true
   images:
-    - src: /img/1.jpg
+    - src: /img/msf.png
       title: Médecins Sans Frontières Suisse
       alt: Minimum required attributes
     - src: /img/2.jpg
