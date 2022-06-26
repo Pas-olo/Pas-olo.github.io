@@ -3,9 +3,10 @@
   captions: true
   images:
     - src: /img/1.jpg
+      title: Médecins Sans Frontières Suisse
       alt: Minimum required attributes
     - src: /img/2.jpg
-      alt: Use data-src for on-demand loading
+      title: Médecins Sans Frontières Belgique
     - src: /img/3.jpg
       data-src-2x: /img/3@2x.jpg
       alt: Use data-src-2x for HiDPI devices
