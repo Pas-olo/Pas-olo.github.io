@@ -20,7 +20,6 @@
 				</div>
 			</div>
 		</section>
-	
     {% if site.contact == "static" %}
     {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}
