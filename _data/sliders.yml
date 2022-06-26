@@ -6,7 +6,7 @@
       alt: image two11
     - src: /img/portfolio/cake.png
       alt: image three00
-    - src: /img/portfolio/cicrus.png
+    - src: /img/portfolio/circus.png
       alt: image two22
     - src: /img/portfolio/game.png
       alt: image three22
@@ -19,10 +19,35 @@
     height: 400
     initialHeight:
     maxHeight:
-    interval: 2000
-    transitionDuration: 500
+    interval:
+    transitionDuration:
     effect:
     disableNav:
     keyboardNav:
     previousNavSelector:
     nextNavSelector:
+- selector: slider2
+  bullets: true
+  captions: true
+  images:
+    - src: /img/portfolio/cabin.png
+      alt: image two11
+    - src: /img/portfolio/cake.png
+      alt: image three00
+    - src: /img/portfolio/circus.png
+      alt: image two22
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: slider3
+  images:
+    - src: /img/portfolio/cabin.png
+      alt: image two11
+    - src: /img/portfolio/cake.png
+      alt: image three00
+    - src: /img/portfolio/circus.png
+      alt: image two22
+  settings:
+    height: "'auto'"
+    disableNav: true

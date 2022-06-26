@@ -6,7 +6,7 @@
       alt: image two11
     - src: /img/portfolio/cake.png
       alt: image three00
-    - src: /img/portfolio/cicrus.png
+    - src: /img/portfolio/circus.png
       alt: image two22
     - src: /img/portfolio/game.png
       alt: image three22
@@ -14,7 +14,7 @@
       alt: image two33
     - src: /img/portfolio/submarine.png
       alt: image three11
-      
+      href: https://google.com
   settings:
     height: 400
     initialHeight:
