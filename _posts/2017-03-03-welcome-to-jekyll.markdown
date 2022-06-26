@@ -3,24 +3,30 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-03-03 22:51:06 -0800
 categories: jekyll update
+image_sliders:
+  - slider1
+  - slider2
+  - slider3
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+[View the Markdown source for this page](https://raw.githubusercontent.com/jekylltools/jekyll-ideal-image-slider-include/gh-pages/examples.md)
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+[View the slider settings in `_data/sliders.yml`](https://github.com/jekylltools/jekyll-ideal-image-slider-include/blob/gh-pages/_data/sliders.yml)
 
-Jekyll also offers powerful support for code snippets:
+## slider 1
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+settings for this slider taken from [Ideal-Image-Slider-JS#getting-started](https://github.com/Codeinwp/Ideal-Image-Slider-JS#getting-started)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+{% include slider.html selector="slider1" %}
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## slider 2
+
+same images, different settings.
+
+{% include slider.html selector="slider2" %}
+
+## slider 3
+
+same images, minimal settings, no bullets, no captions, no navigation
+
+{% include slider.html selector="slider3" %}
