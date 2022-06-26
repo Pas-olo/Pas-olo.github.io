@@ -18,7 +18,6 @@
 				<div class="row">
 					<p> ici</p>
 					{% include slider.html selector="slider1" %}
-					{{ content }}
 				</div>
 			</div>
 		</section>
