@@ -16,8 +16,8 @@
     height: 400
     initialHeight:
     maxHeight:
-    interval: 100
-    transitionDuration:
+    interval: 2000
+    transitionDuration: 500
     effect:
     disableNav:
     keyboardNav:
