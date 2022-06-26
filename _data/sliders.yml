@@ -5,7 +5,7 @@
     - src: /img/msf.jpg
       title: Médecins Sans Frontières Suisse
       alt: Minimum required attributes
-    - src: /img/2.jpg
+    - src: /img/msf-be.jpg
       title: Médecins Sans Frontières Belgique
     - src: /img/3.jpg
       data-src-2x: /img/3@2x.jpg
