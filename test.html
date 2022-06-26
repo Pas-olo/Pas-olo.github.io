@@ -5,10 +5,12 @@ image_sliders:
 ---
 
 <html>
-
-    <link rel="stylesheet" href="/ideal-image-slider.css">
-	{% include slider_styles.html %}
-	{% include slider.html selector="example_slider" %}
-	{% include slider_scripts.html %}
+	<link rel="stylesheet" href="/ideal-image-slider.css">
+	<head>
+		{% include slider_styles.html %}
+	</head>
+	<body>
+		{% include slider.html selector="example_slider" %}
+		{% include slider_scripts.html %}
     </body>
 </html>
