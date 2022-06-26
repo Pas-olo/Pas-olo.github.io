@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 image_sliders:
   - slider1
   - slider2
