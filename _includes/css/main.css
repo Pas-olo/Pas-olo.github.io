@@ -40,6 +40,7 @@ body {
 .supercontent {
 	display:flex;
     align-items: center;
+	justify-content: center ;
     }
 
 .value {
@@ -57,17 +58,6 @@ p {
 
 p.small {
     font-size: 16px;
-}
-
-
-
-@keyframes counter {
-  from {
-    --num: 0;
-  }
-  to {
-    --num: 70530;
-  }
 }
 
 

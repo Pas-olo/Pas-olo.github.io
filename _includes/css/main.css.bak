@@ -10,7 +10,7 @@
   inherits: false;
 }
 compao {
-  animation: counter 30s;
+  animation: counter 10s;
   counter-reset: num var(--num);
   font-size: 20px;
   font-weight: bold;
@@ -40,6 +40,7 @@ body {
 .supercontent {
 	display:flex;
     align-items: center;
+	justify-content: center ;
     }
 
 .value {
