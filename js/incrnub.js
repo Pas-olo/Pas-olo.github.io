@@ -1,19 +1,22 @@
-var speed = 10;
+const counters = document.querySelectorAll('.value');
+const speed = 200;
 
-/* Call this function with a string containing the ID name to
- * the element containing the number you want to do a count animation on.*/
-function incEltNbr(id) {
-  elt = document.getElementById(id);
-  endNbr = Number(document.getElementById(id).innerHTML);
-  incNbrRec(0, endNbr, elt);
-}
+counters.forEach( counter => {
+   const animate = () => {
+      const value = +counter.getAttribute('akhi');
+      const data = +counter.innerText;
+     
+      const time = value / speed;
+     if(data < value) {
+          counter.innerText = Math.ceil(data + time);
+          setTimeout(animate, 1);
+        }else{
+          counter.innerText = value;
+        }
+     
+   }
+   
+   animate();
+});
 
-/*A recursive function to increase the number.*/
-function incNbrRec(i, endNbr, elt) {
-  if (i <= endNbr) {
-    elt.innerHTML = i;
-    setTimeout(function() {//Delay a bit before calling the function again.
-      incNbrRec(i + 1, endNbr, elt);
-    }, speed);
-  }
-}
+
