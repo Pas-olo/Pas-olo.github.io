@@ -26,7 +26,7 @@ p.small {
 }
 
 cou {
-  animation: counter 5s forward;
+  animation: counter 5s;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
   padding: 2rem;
