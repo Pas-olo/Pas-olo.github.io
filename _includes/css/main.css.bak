@@ -4,6 +4,47 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@property --num1 {
+  syntax: "<integer>";
+  initial-value: 75000;
+  inherits: false;
+}
+compteur1 {
+  animation: counter 1s;
+  counter-reset: num1 var(--num1);
+  font-size: 20px;
+  color: red
+}
+compteur1::after {
+  content: counter(num1);
+}
+@keyframes counter {
+  from {
+    --num1: 0;
+    --num2: 0;
+  }
+  to {
+    --num1: 75000;
+    --num2: 7000;
+  }
+}
+
+@property --num2 {
+  syntax: "<integer>";
+  initial-value: 7000;
+  inherits: false;
+}
+compteur2 {
+  animation: counter 1s;
+  counter-reset: num2 var(--num2);
+  font-size: 20px;
+  color: red
+}
+compteur2::after {
+  content: counter(num2);
+}
+
+
 body {
     overflow-x: hidden;
 }
@@ -14,7 +55,11 @@ body {
   align-items: center;
 }
 
-
+.supercontent {
+	display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    }
 
 .value {
   font-size: 20px;
