@@ -3,6 +3,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" }}"></script>
+	<script src="/ideal-image-slider.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="{{ "/js/jquery.easing.min.js" }}"></script>
@@ -19,7 +20,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/freelancer.js" }}"></script>
-
+	<script src="{{ "/js/incrnum.js" }}"></script>
     {% if site.contact == "disqus" %}
     <!-- Disqus Stuff -->
     {% include js_disqus.html %}

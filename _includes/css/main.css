@@ -8,30 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-@property --num {
-  syntax: "<integer>";
-  initial-value: 0;
-  inherits: false;
-}
-
-counpao {
-  animation: counter 5s forwards infinite;
-  counter-reset: num var(--num);
-  font: 800 40px system-ui;
-  padding: 2rem;
-}
-counpao::after {
-  content: counter(num) 'tCO2eq';
-}
-
-@keyframes counter {
-  from {
-    --num: 0;
-  }
-  to {
-    --num: 70530;
-  }
-}
 
 p {
     font-size: 20px;
@@ -42,6 +18,12 @@ p {
 p.small {
     font-size: 16px;
 }
+
+#nbr{
+  font-size:62px;
+  margin:44px 0 0 0;
+}
+
 
 a,
 a:hover,
