@@ -18,9 +18,7 @@
 				<div class="row">
 					<div class="content">
 					  <div class="value" akhi="1000">0</div>
-					  <div class="value" akhi="500">0</div>
-					  <div class="value" akhi="700">0</div>
-					  <div class="value" akhi="999">0</div>
+					  <p> +tCO2eq comptabilisé</p>
 					</div>
 					{% include slider.html selector="slider1" %}
 				</div>
