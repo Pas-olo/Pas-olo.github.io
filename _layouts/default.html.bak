@@ -16,9 +16,9 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="content">
-					  <div class="value" akhi="1000">0</div>
-					  <p> +tCO2eq comptabilisé</p>
+					<div class="supercontent">
+					  <p>+ tCO2eq comptabilisé</p><compteur1></compteur1>
+					  <p>+ tCO2eq comptabilisé</p><compteur1></compteur1>
 					</div>
 					{% include slider.html selector="slider1" %}
 				</div>

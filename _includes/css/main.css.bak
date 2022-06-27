@@ -12,11 +12,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
 }
 
+
+
 .value {
-  font-size: 150px;
+  font-size: 20px;
   display: block;
   font-weight: bold;
   color: #fff;
