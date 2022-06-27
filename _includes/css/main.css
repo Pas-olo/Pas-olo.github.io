@@ -9,13 +9,13 @@
   initial-value: 7500;
   inherits: false;
 }
-compteur {
+compao {
   animation: counter 5s;
   counter-reset: num var(--num);
   font-size: 20px;
   font-weight: bold;
 }
-compteur::after {
+compao::after {
   content: counter(num);
 }
 @keyframes counter {

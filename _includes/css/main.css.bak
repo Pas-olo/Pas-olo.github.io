@@ -6,7 +6,7 @@
 
 @property --num {
   syntax: "<integer>";
-  initial-value: 75000;
+  initial-value: 7500;
   inherits: false;
 }
 compteur {
