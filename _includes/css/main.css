@@ -52,12 +52,12 @@
 .content .box .counter{
   font-size: 50px;
   font-weight: 500;
-  color: #f2f2f2;
+  color: #ffffff;
   font-family: sans-serif;
 }
 .content .box .text{
   font-weight: 400;
-  color: #ccc;
+  color: #ffffff;
 }
 @media screen and (max-width: 1036px) {
   .counter-up{
