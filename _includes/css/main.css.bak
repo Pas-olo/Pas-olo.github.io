@@ -61,17 +61,6 @@ p.small {
 }
 
 
-
-@keyframes counter {
-  from {
-    --num: 0;
-  }
-  to {
-    --num: 70530;
-  }
-}
-
-
 a,
 a:hover,
 a:focus,
