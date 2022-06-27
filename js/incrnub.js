@@ -18,8 +18,7 @@ function counnnter(){
 		 
 	   }
 	   
-	   animate();
 	});
 }
 
- // counters.onclick = counnnter();
+counters.onclick = animate();

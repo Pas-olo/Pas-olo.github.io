@@ -22,4 +22,4 @@ function counnnter(){
 	});
 }
 
-counters.onclick = counnnter();
+ // counters.onclick = counnnter();
