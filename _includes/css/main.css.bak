@@ -20,7 +20,7 @@ compao::after {
 }
 @keyframes counter {
   from {
-    --num: 65000;
+    --num: 0;
   }
   to {
     --num: 70530;

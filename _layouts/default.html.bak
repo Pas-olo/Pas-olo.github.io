@@ -17,10 +17,10 @@
 				</div>
 				<div class="row">
 					<div class="supercontent">
-					  <compao></compao><p><b>+</b>	tCO2eq comptabilisé.</p>
+					  <compao></compao><gg><b>+</b>	tCO2eq comptabilisé.</gg>
 					</div>
 					<div class="supercontent">
-					  <compao></compao><p><b>+</b>	tCO2eq évité d'ici 2030.</p>
+					  <compao></compao><gg><b>+</b>	tCO2eq évité d'ici 2030.</gg>
 					</div>
 					{% include slider.html selector="slider1" %}
 				</div>
