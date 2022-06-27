@@ -21,7 +21,7 @@ counpao {
   padding: 2rem;
 }
 counpao::after {
-  content: counter(num) + "+ tCO2eq comptabilisé";
+  content: counter(num);
 }
 
 @keyframes counter {

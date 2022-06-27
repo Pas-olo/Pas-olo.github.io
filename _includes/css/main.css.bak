@@ -15,15 +15,22 @@ body {
 }
 
 counpao {
-  transition: --num 5s;
-  counter-set: num var(--num);
+  animation: counter 5s infinite alternate ease-in-out;
+  counter-reset: num var(--num);
   font: 800 40px system-ui;
+  padding: 2rem;
 }
 counpao::after {
-  content: counter(num);
+  content: counter(num) + "+ tCO2eq comptabilisé";
 }
-counpao:hover {
-  --num: 100;
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 71530;
+  }
 }
 
 p {
