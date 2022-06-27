@@ -8,6 +8,19 @@ body {
     overflow-x: hidden;
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.value {
+  font-size: 150px;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
 
 p {
     font-size: 20px;
@@ -19,21 +32,7 @@ p.small {
     font-size: 16px;
 }
 
-@property --num {
-  syntax: "<integer>";
-  initial-value: 0;
-  inherits: false;
-}
 
-cou {
-  animation: counter 5s infinite;
-  counter-reset: num var(--num);
-  font: 800 40px system-ui;
-  padding: 2rem;
-}
-cou::after {
-  content: counter(num);
-}
 
 @keyframes counter {
   from {
@@ -254,6 +253,8 @@ section.success {
         margin: 0 0 30px;
     }
 }
+
+
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
