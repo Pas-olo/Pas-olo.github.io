@@ -23,7 +23,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,0.8);
+  background: rgb(76,113,119);
 }
 .counter-up .content{
   z-index: 1;
@@ -47,7 +47,7 @@
 }
 .content .box .icon{
   font-size: 48px;
-  color: #e6e6e6;
+  color: #ffffff;
 }
 .content .box .counter{
   font-size: 50px;
