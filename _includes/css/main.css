@@ -13,7 +13,7 @@ compteur {
   animation: counter 1s;
   counter-reset: num var(--num);
   font-size: 20px;
-  color: red
+  font-weight: bold;
 }
 compteur::after {
   content: counter(num);
