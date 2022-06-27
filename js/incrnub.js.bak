@@ -8,10 +8,8 @@ function isOnScreen(element)
     var screenHeight = $(window).height();
     return (curTop > screenHeight) ? false : true;
 }
-
-counters.forEach( counter => {
-	while(true){
-		if(isOnScreen(counter)) {
+while(true){
+	counters.forEach( counter => {
 		   const animate = () => {
 			  const value = +counter.getAttribute('akhi');
 			  const data = +counter.innerText;
@@ -25,8 +23,8 @@ counters.forEach( counter => {
 				}
 			 
 		   }
-		animate()
-		}
-	}
-});
-
+			if(isOnScreen(counter)) {
+				animate();
+			}
+	});
+}
