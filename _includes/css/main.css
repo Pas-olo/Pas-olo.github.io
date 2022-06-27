@@ -12,7 +12,7 @@
 compao {
   animation: counter 10s;
   counter-reset: num var(--num);
-  font-size: 20px;
+  font-size: 50px;
   font-weight: bold;
 }
 compao::after {
@@ -55,7 +55,11 @@ p {
 	text-align: justify;
 	text-justify: distribute;
 }
-
+gg {
+    font-size: 50px;
+	text-align: justify;
+	text-justify: distribute;
+}
 p.small {
     font-size: 16px;
 }
