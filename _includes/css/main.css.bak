@@ -8,20 +8,31 @@ body {
     overflow-x: hidden;
 }
 
+
+p {
+    font-size: 20px;
+	text-align: justify;
+	text-justify: distribute;
+}
+
+p.small {
+    font-size: 16px;
+}
+
 @property --num {
   syntax: "<integer>";
   initial-value: 0;
   inherits: false;
 }
 
-counpao {
-  animation: counter 5s forwards infinite;
+cou {
+  animation: counter 5s infinite alternate ease-in-out;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
   padding: 2rem;
 }
-counpao::after {
-  content: counter(num) 'tCO2eq';
+cou::after {
+  content: counter(num);
 }
 
 @keyframes counter {
@@ -33,15 +44,6 @@ counpao::after {
   }
 }
 
-p {
-    font-size: 20px;
-	text-align: justify;
-	text-justify: distribute;
-}
-
-p.small {
-    font-size: 16px;
-}
 
 a,
 a:hover,

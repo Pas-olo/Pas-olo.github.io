@@ -19,9 +19,29 @@ p.small {
     font-size: 16px;
 }
 
-#nbr{
-  font-size:62px;
-  margin:44px 0 0 0;
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+cou {
+  animation: counter 5s forward;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+cou::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 70530;
+  }
 }
 
 
