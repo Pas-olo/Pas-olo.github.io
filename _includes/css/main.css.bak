@@ -6,11 +6,11 @@
 
 @property --num {
   syntax: "<integer>";
-  initial-value: 7500;
+  initial-value: 70530;
   inherits: false;
 }
 compao {
-  animation: counter 5s;
+  animation: counter 30s;
   counter-reset: num var(--num);
   font-size: 20px;
   font-weight: bold;
@@ -20,10 +20,10 @@ compao::after {
 }
 @keyframes counter {
   from {
-    --num: 0;
+    --num: 65000;
   }
   to {
-    --num: 75000;
+    --num: 70530;
   }
 }
 
