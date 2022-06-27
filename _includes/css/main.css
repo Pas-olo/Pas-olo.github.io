@@ -15,13 +15,13 @@ body {
 }
 
 counpao {
-  animation: counter 5s infinite alternate ease-in-out;
+  animation: counter 5s forwards infinite;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
   padding: 2rem;
 }
 counpao::after {
-  content: counter(num);
+  content: counter(num) 'tCO2eq';
 }
 
 @keyframes counter {
@@ -29,7 +29,7 @@ counpao::after {
     --num: 0;
   }
   to {
-    --num: 71530;
+    --num: 70530;
   }
 }
 
