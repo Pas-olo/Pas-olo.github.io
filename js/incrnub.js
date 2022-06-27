@@ -1,4 +1,4 @@
-const counters = document.querySelectorAll('.value');
+const counters = document.querySelector('.value');
 const speed = 200;
 
 
