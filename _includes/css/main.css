@@ -11,7 +11,7 @@
   min-height: 50vh;
   background-size: cover;
   background-attachment: fixed;
-  padding: 0 50px;
+  padding: 0 10px;
   position: relative;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgb(76,113,119);
+  background: rgb(137,169,163);
 }
 .counter-up .content{
   z-index: 1;
