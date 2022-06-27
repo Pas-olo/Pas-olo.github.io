@@ -17,10 +17,7 @@
 				</div>
 				<div class="row">
 					<div class="supercontent">
-					  <p>+ tCO2eq comptabilisé</p><compteur1></compteur1>
-					</div>
-					<div class="supercontent">
-					  <p>+ tCO2eq comptabilisé</p><compteur2></compteur2>
+					  <p>+ tCO2eq comptabilisé</p><compteur></compteur>
 					</div>
 					{% include slider.html selector="slider1" %}
 				</div>

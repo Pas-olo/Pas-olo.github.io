@@ -6,11 +6,11 @@
 
 @property --num {
   syntax: "<integer>";
-  initial-value: 75000;
+  initial-value: 7500;
   inherits: false;
 }
 compteur {
-  animation: counter 1s;
+  animation: counter 5s;
   counter-reset: num var(--num);
   font-size: 20px;
   font-weight: bold;
