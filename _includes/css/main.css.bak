@@ -45,7 +45,7 @@
   justify-content: space-between;
 }
 .counter-up .content .box{
-  border: 1px dashed rgba(0,0,0,0.6);
+  border: 1px dashed rgba(76,133,119,0.6);
   width: calc(25% - 30px);
   border-radius: 5px;
   display: flex;
@@ -56,17 +56,17 @@
 }
 .content .box .icon{
   font-size: 48px;
-  color: #ffffff;
+  color: rgb(76,133,119);
 }
 .content .box .counter{
   font-size: 50px;
   font-weight: 500;
-  color: #ffffff;
+  color: rgb(76,133,119);
   font-family: sans-serif;
 }
 .content .box .text{
   font-weight: 400;
-  color: #ffffff;
+  color: rgb(76,133,119);
 }
 @media screen and (max-width: 1036px) {
   .counter-up{
@@ -445,7 +445,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #ffffff;
 }
 
 form .row:first-child .floating-label-form-group {

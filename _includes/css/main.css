@@ -445,11 +445,11 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #ffffff;
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ffffff;
 }
 
 footer {
