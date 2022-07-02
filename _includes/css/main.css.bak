@@ -4,10 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+sectpao {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 .counter-up{
-  background: url("images/bg-2.jpeg") no-repeat;
   min-height: 50vh;
   background-size: cover;
   background-attachment: fixed;
