@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-sectpao {
+.sectpao {
   z-index: 1;
   position: relative;
   display: flex;

@@ -35,13 +35,13 @@
 						  </div>
 						</div>
 					</div>
-					<sectpao>
+					<div class="sectpao">
 						<div></div>
 						<div>
 							{% include slider.html selector="slider1" %}
 						</div>
 						<div></div>
-					</sectpao>
+					</div>
 				</div>
 			</div>
 		</section>
