@@ -18,12 +18,12 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
 					<li class="page-scroll">
-                        <a href="#about">Expertise</a>
+                        <a href="#page-top">Acceuil</a>
                     </li>
                     </li>
                     <li class="page-scroll">
-                        <a href="#page-top">Acceuil</a>
-                    </li>
+                        <a href="#about">Expertise</a>
+                    </li> 
                     <li class="page-scroll">
                         <a href="#contact">Nous contacter</a>
                     </li>
