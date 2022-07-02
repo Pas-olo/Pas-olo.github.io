@@ -8,8 +8,8 @@
   z-index: 1;
   position: relative;
   display: flex;
-  width: 60%;
-  height: 100%;
+  width: 20%;
+  height: 20%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
