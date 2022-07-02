@@ -21,18 +21,18 @@
 						  <div class="box">
 							<div class="icon"><i class="fa-solid fa-calculator"></i></div>
 							<div class="counter">70530</div>
-							<div class="text">tCO2eq compté</div>
+							<div class="text"><b>tCO2eq compté</b></div>
 						  </div>
 						  <div class="box">
 							<div class="icon"><i class="fa-solid fa-trash-can"></i></div>
-							<div class="counter">200000</div>
-							<div class="text">tCO2eq évité d'ici 2030</div>
+							<div class="counter">210244</div>
+							<div class="text"><b>tCO2eq évité d'ici 2030</b></div>
 						  </div>
-						  <div class="box">
+						  <!-- <div class="box">
 							<div class="icon"><i class="fas fa-users"></i></div>
 							<div class="counter">4</div>
 							<div class="text">Partenaires</div>
-						  </div>
+						  </div> -->
 						</div>
 					</div>
 					<div class="sectpao">
