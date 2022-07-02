@@ -32,7 +32,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgb(137,169,163);
+  background: rgb(255,255,255);
 }
 .counter-up .content{
   z-index: 1;
@@ -45,7 +45,7 @@
   justify-content: space-between;
 }
 .counter-up .content .box{
-  border: 1px dashed rgba(255,255,255,0.6);
+  border: 1px dashed rgba(0,0,0,0.6);
   width: calc(25% - 30px);
   border-radius: 5px;
   display: flex;
