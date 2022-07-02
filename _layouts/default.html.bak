@@ -7,7 +7,7 @@
     {% include nav.html %}
     {% include header.html %}
     {% include about.html %}
-	    <section class="success" id="portfolio">
+<!-- 	    <section class="success" id="portfolio">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
@@ -28,11 +28,11 @@
 							<div class="counter">210244</div>
 							<div class="text"><b>tCO2eq évité d'ici 2030</b></div>
 						  </div>
-						  <!-- <div class="box">
+						  <div class="box">
 							<div class="icon"><i class="fas fa-users"></i></div>
 							<div class="counter">4</div>
 							<div class="text">Partenaires</div>
-						  </div> -->
+						  </div>
 						</div>
 					</div>
 					<div class="sectpao">
@@ -40,7 +40,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
     {% if site.contact == "static" %}
     {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}
