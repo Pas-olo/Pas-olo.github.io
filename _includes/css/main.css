@@ -18,14 +18,12 @@
 
 .counter-up{
   min-height: 50vh;
-  /*background-size: cover;
-  background-attachment: fixed;*/
+  background-size: cover;
+  background-attachment: fixed;
   padding: 0 10px;
   position: relative;
   display: flex;
   align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
 }
 .counter-up::before{
   position: absolute;
@@ -44,11 +42,11 @@
   height: 100%;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .counter-up .content .box{
   border: 1px dashed rgba(76,133,119,0.6);
-  width: 100%;
+  width: calc(25% - 30px);
   border-radius: 5px;
   display: flex;
   align-items: center;

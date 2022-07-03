@@ -48,7 +48,7 @@
 }
 .counter-up .content .box{
   border: 1px dashed rgba(76,133,119,0.6);
-  width: 50%;
+  width: 100%;
   border-radius: 5px;
   display: flex;
   align-items: center;
