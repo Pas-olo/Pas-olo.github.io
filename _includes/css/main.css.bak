@@ -38,7 +38,7 @@
   z-index: 1;
   position: relative;
   display: flex;
-  width: 100%;
+  width: 50%;
   height: 100%;
   flex-wrap: wrap;
   align-items: center;
