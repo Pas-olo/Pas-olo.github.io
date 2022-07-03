@@ -24,8 +24,8 @@
   position: relative;
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .counter-up::before{
   position: absolute;
