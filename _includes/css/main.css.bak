@@ -44,13 +44,11 @@
   height: 100%;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
   justify-content: center;
 }
 .counter-up .content .box{
   border: 1px dashed rgba(76,133,119,0.6);
-  width: 25%;
+  width: 50%;
   border-radius: 5px;
   display: flex;
   align-items: center;
