@@ -44,7 +44,7 @@
   height: 100%;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .counter-up .content .box{
   border: 1px dashed rgba(76,133,119,0.6);
