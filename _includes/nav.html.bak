@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="#page-top">{{ site.title }}</a> -->
-				<a class="navbar-brand" href="#page-top">Eco<i>mpte</i></a>
+				<a class="navbar-brand" href="#page-top">Éco<i>mpte</i></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
