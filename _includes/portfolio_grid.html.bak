@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
                     <center><img class="img-responsive" src="img/profile.png" alt="profile-pic" />
-					<div class="icon"><a href="https://google.com/"><i class="fa-brands fa-linkedin"></i></a></div></center>
+					<a href="https://google.com/"><i class="fa-brands fa-linkedin"></i></a></center>
                 </div>
                 <div class="col-lg-4">
                     <p align="justify">Pour garantir un avenir à la planète et à ses habitants, les émissions mondiales de gaz à effet de serre doivent être divisées par deux d’ici 2030 et ramenées à zéro net d’ici 2050.<br>Pour s’inscrire dans cette dynamique, nous guidons les entreprises à construire une stratégie bas-carbone à partir de constats scientifiques au niveau de l’entreprise.<br>Adopter une stratégie climat fondée sur la science est l’action la plus significative que votre entreprise puisse entreprendre, pour elle-même et pour la planète.</p>

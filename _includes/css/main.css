@@ -14,7 +14,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.iconss{
+  font-size: 48px;
+  color: rgb(255,255,255);
+}
 
 .counter-up{
   min-height: 10vh;
