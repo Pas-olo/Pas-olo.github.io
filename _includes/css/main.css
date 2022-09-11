@@ -61,6 +61,10 @@
   font-size: 48px;
   color: rgb(76,133,119);
 }
+.content .box .title{
+  font-size: 38px;
+  color: rgb(76,133,119);
+}
 .content .box .counter{
   font-size: 50px;
   font-weight: 500;

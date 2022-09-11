@@ -129,8 +129,8 @@ body {
 
 p {
     font-size: 20px;
-	text-align: justify;
-	text-justify: distribute;
+	/* text-align: justify; */
+	/* text-justify: distribute; */
 }
 gg {
     font-size: 50px;
